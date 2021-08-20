@@ -300,8 +300,8 @@ while (tentar == 1):
                 decisao = int(input('Selecione uma opção válida: '))
         #Loja aleatória
         while decisao == 3:
+            print('Cada item custa 5 moedas')
             comprar = int(input('Loja de consumíveis:\n1. {}\n2. {}\n3. {}\n4. Voltar\n\033[97m━━━━▶\033[m '.format(item1, item2, item3)))
-            print ('Cada item custa 5 moedas')
             if comprar == 4:
                 decisao = int(
                     input('O que deseja fazer?\n1. Atacar\n2. Mochila\n3. Loja aleatória\n\033[97m━━━━▶\033[m '))
@@ -409,8 +409,8 @@ while (tentar == 1):
                     escudo = dmginimigo
                     print ('Você está com escudo')
         while decisao == 3:
-            comprar = int(input('Loja de consumíveis:\n1. {}\n2. {}\n3. {}\n4. Voltar\n\033[97m━━━━▶\033[m '.format(item1, item2, item3)))
             print('Cada item custa 5 moedas')
+            comprar = int(input('Loja de consumíveis:\n1. {}\n2. {}\n3. {}\n4. Voltar\n\033[97m━━━━▶\033[m '.format(item1, item2, item3)))
             if comprar == 4:
                 decisao = int(
                     input('O que deseja fazer?\n1. Atacar\n2. Mochila\n3. Loja aleatória\n\033[97m━━━━▶\033[m '))
